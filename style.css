@@ -1,7 +1,6 @@
 body {
-    align-items: center;
     text-align: center;
-    font-family: fantasy, sans-serif;
+    font-family: cursive;
     background-color: beige;
 }
 
@@ -9,9 +8,12 @@ body {
     color: blueviolet;
 }
 
-.recipe-list {
+.inline-block {
     display: inline-block;
     padding: 10px 20px;
+}
+
+.recipe-list {
     border-radius: 10px;
     background-color: blueviolet;
     color: beige;
@@ -22,7 +24,7 @@ body {
 }
 
 li {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 
@@ -36,12 +38,9 @@ img {
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
     background-color: blueviolet;
     color: beige;
     font-size: 20px;
     border-radius: 10px;
     text-decoration: none;
-
 }
