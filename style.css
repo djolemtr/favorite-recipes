@@ -1,7 +1,11 @@
 body {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Tektur', sans-serif;
     background-color: beige;
+}
+
+.main-title{
+    font-family: 'Bungee Spice', sans-serif;
 }
 
 .title {
@@ -17,16 +21,23 @@ body {
     border-radius: 10px;
     background-color: blueviolet;
     color: beige;
+    list-style: none;
+    
 }
 
 .recipe-list li a {
     color: beige;
+    text-decoration: none;
 }
 
 li {
     text-align: left;
     list-style-position: inside;
 }
+
+li:nth-child(even) {
+    color: blueviolet;
+  }
 
 h2 {
     background-color: blueviolet;
