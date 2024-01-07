@@ -1,0 +1,47 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    background-color: beige;
+}
+
+.title {
+    color: blueviolet;
+}
+
+.recipe-list {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: beige;
+}
+
+.recipe-list li a {
+    color: beige;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: beige;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: beige;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
