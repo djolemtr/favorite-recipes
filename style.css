@@ -18,7 +18,7 @@ body {
 }
 
 .title {
-    color: blueviolet;
+    color: #e4771b;
 }
 
 .inline-block {
@@ -37,11 +37,17 @@ body {
 .recipe-list li a {
     color: beige;
     text-decoration: none;
+   
+}
+
+.recipe-list li a:hover{
+    color: #e4771b;
 }
 
 li {
     text-align: left;
     list-style-position: inside;
+    padding: 5px;
 }
 
 li:nth-child(even) {
@@ -65,4 +71,8 @@ img {
     font-size: 20px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.button:hover{
+    background-color: #e4771b;
 }
