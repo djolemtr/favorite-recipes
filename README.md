@@ -1,4 +1,4 @@
-# favorite_recipes
+# favorite-recipes
 
 A simple recipe website showcasing basic HTML and CSS skills.
 
