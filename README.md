@@ -1,4 +1,4 @@
-# odin_recipes
+# favorite_recipes
 
 https://djolemtr.github.io/odin_recipes/
 
