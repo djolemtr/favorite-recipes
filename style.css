@@ -4,7 +4,7 @@ body {
     background-color: beige;
 }
 
-.centered{
+.centered {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 
-.main-title{
+.main-title {
     font-family: 'Bungee Spice', sans-serif;
 }
 
@@ -31,16 +31,16 @@ body {
     background-color: blueviolet;
     color: beige;
     list-style: none;
-    
+
 }
 
 .recipe-list li a {
     color: beige;
     text-decoration: none;
-   
+
 }
 
-.recipe-list li a:hover{
+.recipe-list li a:hover {
     color: #e4771b;
 }
 
@@ -52,11 +52,12 @@ li {
 
 li:nth-child(even) {
     color: blueviolet;
-  }
+}
 
 h2 {
     background-color: blueviolet;
     color: beige;
+    border-radius: 10px;
 }
 
 img {
@@ -73,6 +74,11 @@ img {
     text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: #e4771b;
+}
+
+ol,
+ul {
+    max-width: 700px;
 }
